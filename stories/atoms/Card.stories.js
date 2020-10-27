@@ -22,3 +22,20 @@ export const Colors = () => (
     <Card color="secondary">Secondary Color</Card>
   </>
 )
+
+export const Size = () => (
+  <>
+    <Card size="sm">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Card>
+    <Card size="md">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Card>
+    <Card size="lg">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Card>
+  </>
+)
