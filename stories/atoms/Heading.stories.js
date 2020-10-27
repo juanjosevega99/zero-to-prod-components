@@ -32,6 +32,10 @@ export const Sizes = () => (
       El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
       saxofón detrás del palenque de paja.
     </Heading>
+    <Heading size="sm">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Heading>
     <Heading size="lg">
       El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
       saxofón detrás del palenque de paja.
