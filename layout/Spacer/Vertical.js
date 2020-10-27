@@ -7,7 +7,7 @@ import styles from './Spacer.module.css'
 
 const Vertical = ({ size, maxHeight, isVisible }) => (
   <div
-    className={classNames(styles.spacer, {
+    className={classNames(styles.spacer, styles.vertical, {
       [styles['is-visible']]: isVisible,
     })}
     style={{
