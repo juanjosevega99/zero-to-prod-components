@@ -6,7 +6,7 @@ import Picture from '../Picture'
 
 import { mapSize } from './helpers'
 
-import styles from './Avatar.modules.css'
+import styles from './Avatar.module.css'
 
 const Avatar = ({ src, size }) => {
   return (
