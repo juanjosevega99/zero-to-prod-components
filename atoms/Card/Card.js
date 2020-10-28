@@ -22,9 +22,9 @@ Card.defaultProps = {
   size: 'sm',
 }
 
-Card.PropTypes = {
+Card.propTypes = {
   children: PropTypes.node.isRequired,
-  children: PropTypes.oneOf(['primary', 'seconday', 'default']),
+  color: PropTypes.oneOf(['primary', 'seconday', 'default']),
   size: PropTypes.string,
 }
 
