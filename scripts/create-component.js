@@ -2,7 +2,11 @@
 const fs = require('fs').promises
 const enquirer = require('enquirer')
 
-const ATOMIC_DESIGN_TYPES = { atom: 'atoms', molecule: 'molecules' }
+const ATOMIC_DESIGN_TYPES = {
+  atom: 'atoms',
+  molecule: 'molecules',
+  layout: 'layout',
+}
 
 function readComponentFile() {
   return fs.readFile('./templates/component/Component.js', 'utf8')
@@ -77,7 +81,7 @@ async function getPromptParams() {
     type: 'select',
     name: 'type',
     message: 'What kind of component would you like to create?',
-    choices: ['atom', 'molecule'],
+    choices: ['atom', 'molecule', 'layout'],
     initial: 'atom',
   })
 
