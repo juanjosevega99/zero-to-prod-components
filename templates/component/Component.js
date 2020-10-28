@@ -1,18 +1,17 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import classNames from 'classnames'
+import PropTypes from 'prop-types'
 
 import styles from './Component.module.css'
 
-const Component = ({ id, className }) => {
-  return <div id={id} className={classNames(className, styles.component)}></div>
+const Component = ({ children }) => {
+  return <div className={classNames(styles.component)}>{children}</div>
+}
+
+Component.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 Component.defaultProps = {}
-
-Component.PropTypes = {
-  id: PropTypes.string,
-  className: PropTypes.string,
-}
 
 export default Component
