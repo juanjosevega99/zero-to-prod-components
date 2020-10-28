@@ -1,6 +1,6 @@
 import React from 'react'
 import Token from '../../tokens/Token'
-import toKebabCase from '../../utils/kebabCase'
+import kebabCase from '../../utils/kebabCase'
 import { choices } from '../../tokens'
 
 export default {
