@@ -15,8 +15,7 @@
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
     "build-storybook": "build-storybook -s ./assets",
-    "semantic-release": "semantic-release",
-    "chromatic": "npx chromatic --project-token dh6g1o917kg"
+    "create-component": "node ./scripts/create-component"
   },
   "keywords": [
     "react",
