@@ -11,8 +11,6 @@ const Horizontal = ({ size, isVisible }) => (
       [styles['is-visible']]: isVisible,
     })}
     style={{
-      display: 'block',
-      width: '100%',
       height: getSize(size),
     }}
   />

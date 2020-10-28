@@ -11,8 +11,6 @@ const Vertical = ({ size, maxHeight, isVisible }) => (
       [styles['is-visible']]: isVisible,
     })}
     style={{
-      display: 'block',
-      height: '100vh',
       maxHeight,
       width: getSize(size),
     }}
