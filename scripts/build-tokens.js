@@ -1,5 +1,5 @@
 const { choices, decisions } = require('../tokens')
-const toKebabCase = require('../utils/kebabCase')
+const toKebabCase = require('../utils/toBebabCase')
 const fs = require('fs')
 
 function transformTokens(parentKey, object) {
