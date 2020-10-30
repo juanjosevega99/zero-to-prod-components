@@ -156,6 +156,7 @@ const choices = {
   },
   fontFamily: {
     sans: ['Quicksand', 'Arial', 'sans-serif'],
+    mono: ['Roboto Mono', 'monospace'],
   },
   fontSize: {
     base: '10px',
