@@ -23,7 +23,7 @@ export const Default = () => (
   />
 )
 
-function renderColorsStory(color) {
+function renderColorStory(color) {
   const keys = Object.keys(choices.color[color])
   return (
     <>
