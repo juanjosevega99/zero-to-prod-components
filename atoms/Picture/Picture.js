@@ -21,7 +21,7 @@ Picture.propTypes = {
 Picture.propTypes = {
   src: PropTypes.string.isRequired,
   width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-  width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   isRounded: PropTypes.bool,
 }
 
