@@ -1,2 +1,2 @@
 export { default } from './Avatar'
-export { options } from './constants'
+export { options } from './contants'
