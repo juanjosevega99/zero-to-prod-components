@@ -6,7 +6,7 @@ export const handleOnChange = ({ setInputValue }) => (event) => {
   setInputValue(event.currentTarget.value)
 }
 
-export const handleOnKeyDown = ({
+export const handleOneKeyDown = ({
   onAdd,
   setEditMode,
   setInputValue,
