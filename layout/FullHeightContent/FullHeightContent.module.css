@@ -3,3 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.footer {
+  text-align: center;
+}
