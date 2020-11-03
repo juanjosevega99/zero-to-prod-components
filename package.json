@@ -57,7 +57,7 @@
   },
   "peerDependencies": {
     "minireset.css": "^0.0.6",
-    "react": "^16.13.1"
+    "react": "16.13.1"
   },
   "husky": {
     "hooks": {
