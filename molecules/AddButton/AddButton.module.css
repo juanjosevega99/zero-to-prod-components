@@ -1,28 +1,28 @@
 .add-button {
-  display: flex;
-  border: 1px dashed;
   align-items: center;
+  border: 1px dashed;
   cursor: pointer;
+  display: flex;
   user-select: none;
 }
 
 .type-primary {
-  height: 45px;
-  padding: 10px 12px;
   border-color: var(--color-font-base);
   border-radius: var(--border-radius-sm);
+  height: 45px;
+  padding: 10px 12px;
 }
 
 .type-secondary {
-  height: 38px;
-  padding: 8px 12px;
   border-color: var(--color-primary);
   border-radius: var(--border-radius-md);
+  height: 38px;
+  padding: 8px 12px;
 }
 
 .is-editable {
-  border: 1px solid;
   background: var(--color-white);
+  border: 1px solid;
   border-color: var(--color-gray-300);
   box-shadow: var(--box-shadow-sm);
 }
@@ -30,11 +30,11 @@
 .is-editable > input {
   border: 1px solid transparent;
   color: var(--color-font-base);
-  width: 100%;
-  padding: 12px 17px;
-  line-height: var(--line-height-tight);
-  font-weight: var(--font-weight-medium);
   font-family: var(--font-family-sans);
   font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
   height: var(--input-height);
+  line-height: var(--line-height-tight);
+  padding: 12px 17px;
+  width: 100%;
 }
