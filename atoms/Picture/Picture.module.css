@@ -6,3 +6,7 @@
 .is-rounded img {
   border-radius: var(--border-radius-full);
 }
+
+.with-border img {
+  border: var(--border-width-thin) solid var(--color-gray-400);
+}
