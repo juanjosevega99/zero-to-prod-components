@@ -16,11 +16,12 @@
     "dev": "yarn storybook",
     "test": "jest",
     "lint": "yarn lint-js && yarn lint-css",
-    "lint-js": "eslint .",
-    "lint-css": "stylelint \"**/*.css\"",
-    "storybook": "start-storybook -p 6006 -s ./assets",
+    "lint-js": "eslint --cache --fix",
+    "lint-css": "prettier '**/*.css' --write && stylelint '**/*.css' --fix",
+    "storybook": "start-storybook -p 6006",
     "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "build-storybook -s ./assets",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "build-storybook && vercel --prod",
     "create-component": "node ./scripts/create-component"
   },
   "keywords": [
@@ -69,6 +70,7 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": "yarn lint-js",
+    "*.css": "yarn lint-css"
   }
 }
