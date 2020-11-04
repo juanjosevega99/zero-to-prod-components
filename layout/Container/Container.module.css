@@ -1,9 +1,14 @@
 .container {
   display: flex;
+  flex: auto;
   height: 100%;
   justify-content: center;
   margin: 0 auto;
   max-width: var(--container-max-width);
   padding: 40px 30px 20px;
   width: 100%;
+}
+
+.is-visible {
+  border: var(--border-width-thick) dashed var(--color-primary);
 }
