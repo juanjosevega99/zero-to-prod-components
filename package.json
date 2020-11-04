@@ -56,9 +56,7 @@
     "react-is": "16.13.1",
     "react-test-renderer": "16.13.1",
     "semantic-release": "17.1.2",
-    "stylelint": "13.7.2",
-    "stylelint-config-prettier": "8.0.2",
-    "stylelint-prettier": "1.1.2"
+    "stylelint": "13.7.2"
   },
   "peerDependencies": {
     "minireset.css": "^0.0.6",
@@ -72,5 +70,9 @@
   "lint-staged": {
     "*.js": "yarn lint-js",
     "*.css": "yarn lint-css"
+  },
+  "dependencies": {
+    "stylelint-config-recommended": "3.0.0",
+    "stylelint-order": "4.1.0"
   }
 }
