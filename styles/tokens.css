@@ -165,7 +165,7 @@
   --letter-spacing-widest: 0.1em;
 
   --box-shadow-none: none;
-  --box-shadow-sm: 0px 4px 5px #e8e8e8;
+  --box-shadow-sm: 0px 4px 5px rgba(0, 0, 0, 0.07);
 
   --border-radius-none: 0;
   --border-radius-sm: 10px;
@@ -174,7 +174,8 @@
   --border-radius-full: 9999px;
 
   --border-width-none: 0;
-  --border-width-default: 1px;
+  --border-width-thin: 1px;
+  --border-width-thick: 2px;
 
   --opacity-0: 0;
   --opacity-25: 0.25;
@@ -191,10 +192,13 @@
   --z-index-auto: auto;
 
   --color-primary: #9879e9;
+  --color-primary-inverted: #fff;
   --color-primary-highlight: #eff1fd;
   --color-primary-muted: #7559d1;
   --color-secondary: #eb4e58;
+  --color-secondary-inverted: #fff;
   --color-font-base: #455970;
+  --color-font-inverted: #fff;
   --color-font-highlight: #b7b7b7;
   --color-font-muted: #7e858c;
 
@@ -206,5 +210,5 @@
   --button-max-width: 300px;
 
   --input-height: 38px;
-  --input-max-width: 300px;
+  --input-max-width: 400px;
 }
