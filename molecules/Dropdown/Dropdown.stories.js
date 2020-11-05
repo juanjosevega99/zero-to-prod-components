@@ -30,6 +30,7 @@ export default {
       },
     },
   },
+  onChange: { defaultValue: null },
 }
 
 export const Default = Template.bind({})
