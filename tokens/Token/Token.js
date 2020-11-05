@@ -2,9 +2,7 @@ import React from 'react'
 
 import Color from './components/Color'
 
-const Token = () => {
-  return <></>
-}
+const Token = () => <></>
 
 Token.Color = Color
 
