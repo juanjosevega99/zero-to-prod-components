@@ -1,40 +1,49 @@
 .add-button {
-  align-items: center;
-  border: 1px dashed;
-  cursor: pointer;
   display: flex;
+  align-items: center;
+  border: var(--border-width-thin) dashed;
+  cursor: pointer;
   user-select: none;
 }
 
 .type-primary {
-  border-color: var(--color-font-base);
-  border-radius: var(--border-radius-sm);
   height: 48px;
   padding: 10px 12px;
+  border-color: var(--color-font-base);
+  border-radius: var(--border-radius-sm);
 }
 
 .type-secondary {
-  border-color: var(--color-primary);
-  border-radius: var(--border-radius-md);
   height: 40px;
   padding: 10px 12px;
+  border-color: var(--color-primary);
+  border-radius: var(--border-radius-md);
 }
 
 .is-editable {
-  background: var(--color-white);
-  border: 1px solid;
+  border: var(--border-width-thin) solid;
   border-color: var(--color-gray-300);
+  background: var(--color-primary-inverted);
   box-shadow: var(--box-shadow-sm);
+  transition: box-shadow 0.2s ease;
+}
+
+.is-editable:focus-within {
+  border: var(--border-width-thin) solid var(--color-primary);
+  box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
 }
 
 .is-editable > input {
-  border: 1px solid transparent;
+  width: 100%;
+  height: auto;
+  border: var(--border-width-thin) solid transparent;
   color: var(--color-font-base);
   font-family: var(--font-family-sans);
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-medium);
-  height: var(--input-height);
-  line-height: var(--line-height-tight);
-  padding: 12px 17px;
-  width: 100%;
+  line-height: var(--line-height-none);
+}
+
+.is-editable > input:focus {
+  outline: none;
 }

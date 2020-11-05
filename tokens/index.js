@@ -243,7 +243,7 @@ const decisions = {
   },
   backgroundColor: {
     primary: choices.color.brand.hintOfRed,
-    highlight: choices.color.brand.romance,
+    primaryHighlight: choices.color.brand.romance,
   },
   container: {
     maxWidth: '800px',
